@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(247,247,247);
+}
+
+
+#card_title {
+	font-family: Abel, sans-serif;
+}
+
+
+/*+++++++++ Navbar ++++++++++*/
+#navbar {
+	background: rgb(254,255,254);
+	box-shadow: 3px 0 10px 0 rgba(0,0,0,.24);
+}
+
+/*nav Item*/
+#navItem {
+	margin-left: 60%;
+	font-family: 'Noto Serif', serif;
+	
+}
+
+
+@media screen and (max-width:  991px) {
+	#navItem {
+		margin-left: 0%;
+	}
+}
+
+/*logo */
+#the_logo {
+	margin-left: 20px; 
+	line-height: 60px;
+}
+
+@media screen and (max-width: 430px) {
+	#the_logo {
+		margin-left: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+
+
+
+/*Expore (expore.html)*/
+#expore_title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#poems_slider {
+	margin-bottom: 100px;
+}
+
+
+#jumbotron_bg {
+	 background: linear-gradient(to top right,  rgb(46,128,149), rgb(77,215,249));
+	 margin-bottom: 100px;
+}
+
+#jumbotron_text_one {
+	color: white;
+}
+
+#jumbotron_text_two {
+	color: white;
+}
+
+/*small screen*/
+@media screen and (max-width: 430px) {
+	#jumbotron_text_one {
+	  font-size: 30px;
+	  font-weight: bolder;
+	}
+
+	#jumbotron_text_two {
+		font-size: 17px;
+	}
+
+}
+
+
+@media screen and (max-width: 2560px) and (min-width: 768px) {
+	#footer_slidebar_container {
+		display: none;
+	}
+}
+
+
+
+
+
+#aboutus_title {
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+	color: gray;
+}
+
+#aboutus_wrapper {
+	margin-bottom: 100px;
+}
+
+
+#aboutus_para {
+	color: gray;
+	font-size: 16px;
+}
+
+
+#contact_info {
+	text-align: center;
+	color: gray;
+	font-size: 17px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+/*------------------ FOOTER -----------------*/
+/*footer*/
+#footer {
+	background: rgb(191,191,191);
+	height: 300px;
+	display: flex;
+}
+
+#footer_item {
+	margin: auto;
+}
+
+#all_footer_icon {
+	margin-left: 100px;
+}
+
+@media screen and (max-width: 425px) {
+	#all_footer_icon {
+		margin-left: 80px;
+	}
+}
+
+
+#footer_icon {
+	padding-left: 20px;
+	font-size: 20px;
+	color: rgb(27,202,55);
+}
+
+
+#footer_icon:hover {
+	color: rgb(19,143,39);
+}
+
+#footer_menu, li {
+	float: left;
+	padding-left: 15px;
+	list-style-type: none;
+	color: white;
+}
+
+
+@media screen and (max-width: 425px) {
+	#footer_menu {
+		margin-right: 7%;
+		font-size: 16px;
+	}
+}
+
+
+@media screen and (max-width: 375px) {
+	#footer_menu {
+		margin-right: 3%;
+		padding-left: 0px;
+		font-size: 12px;
+	}
+}
+
+
+
+
+#footer_para_one {
+	text-align: center;
+	margin-left: 27px;
+	font-size: 12px;
+	color: white;
+}
+
+
+
+@media screen and (max-width: 425px) {
+	#footer_para_one {
+		margin-right: 20px;
+	}
+}
+
+
+#footer_para_two {
+	text-align: center;
+	margin-left: 13px;
+	font-size: 12px;
+	color: white;
+}
+
+
+#last_footer {
+	background: white;
+	display: flex;
+	box-shadow: 3px 0 10px 0 rgba(0,0,0,.24);
+}
+
+#last_footer_item {
+	margin: auto;
+	margin-top: 20px;
+}
+
+#last_footer_para {
+	font-size: 13px;
+}
+
+#Joseph_name {
+	color: black;
+}
+
+#above_footer_icon {
+	text-align: center;
+	margin-left: 50%;
+	font-size: 25px;
+	color:rgb(27,202,55);
+}
+
+
+#above_footer_icon:hover {
+	color: rgb(19,143,39);
+}
+
+
+
+
